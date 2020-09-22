@@ -1,0 +1,159 @@
+/* Start Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/* End Global */
+
+ul {
+    list-style-type: none;
+}
+
+
+/* strat of header */
+
+header.main {
+    background-color: #333;
+    color: #ddd;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* end of header */
+
+nav {
+    background-color: #ddd;
+}
+
+nav ul {
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    min-width: 50px;
+}
+
+nav ul li:after {
+    content: " | ";
+}
+
+nav ul li:last-child:after {
+    content: "  ";
+}
+
+
+/* End Nav */
+
+
+/* Start Main */
+
+main {
+    background-color: #e6cec5c4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    color: #666;
+}
+
+
+/* End Main */
+
+
+/* start article */
+
+.post {
+    width: 70%;
+    float: left;
+}
+
+.post article {
+    background-color: #f1f1f1;
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+.post article header {
+    background-color: #eae5e0;
+    padding: 10px;
+}
+
+.post article section details {
+    margin-top: 10px;
+}
+
+.post article section .long-link {
+    width: 200px;
+    margin-top: 10px;
+}
+
+
+/* end articles */
+
+
+/* strat section */
+
+section {
+    padding: 10px;
+}
+
+
+/* end section */
+
+
+/* Sratr aside */
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+aside section {
+    background-color: #EEE;
+    margin: 20px 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+aside section h3 {
+    background-color: #c1adad;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+aside section ul li {
+    margin: 10px;
+}
+
+
+/* End aside */
+
+footer {
+    text-align: center;
+    background-color: #333;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ddd;
+    margin-bottom: 0px;
+}
