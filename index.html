@@ -29,6 +29,9 @@
 
     <!--Start Main Content-->
     <main>
+        <p>
+            <bid>بسم الله الرحمن الرحيم In the name of Allah</bid>
+        </p>
         <p>Welcome to my hard duty with <span>Html5 Course</span> with Elzero web school</p>
 
     </main>
@@ -39,13 +42,13 @@
         <article>
             <header>
                 <h1>Our new framework milestone</h1>
-                <p>Created by <span>Amir</span> on <span>20/9/2020</span></p>
+                <p>Created by <span>Amir</span> on <time datetime="2020-9-20 18:00:00">20/9/2020</time></p>
             </header>
             <section>
                 <p>This is article content #1</p>
                 <div id="=">
-                    HTML: <span style="padding:36px;"><progress value="50" max="100"></progress></span></br>
-                    CSS : <span style="padding:43px;"><progress value="45" max="100"></progress></span></br>
+                    HTML: <span style="padding:36px;"><progress value="50" max="100"></progress></span><br>
+                    CSS : <span style="padding:43px;"><progress value="45" max="100"></progress></span><br>
                     JavaScript : <progress value="30" max="100"></progress>
                 </div>
             </section>
@@ -53,7 +56,7 @@
         <article>
             <header>
                 <h1>Article about using &lt;details&gt;</h1>
-                <p>Created by <span>Amir</span> on <span>20/9/2020</span></p>
+                <p>Created by <span>Amir</span> on <span>21/9/2020</span></p>
             </header>
             <section>
                 <p>This is article content #2</p>
@@ -72,15 +75,124 @@
         <article>
             <header>
                 <h1>Article about using &lt;wbr&gt;</h1>
-                <p>Created by <span>Amir</span> on <span>20/9/2020</span></p>
+                <p>Created by <span>Amir</span> on <span>21/9/2020</span></p>
             </header>
             <section>
                 <p>This is article content #3</p>
                 <div class="long-link">
-                    http://www.testing.com<wbr>/products.php?id=200</wbr>&cat=100&test=mainsection
+					<wbr>http://www.testing.com<wbr>/products.php?id=200<wbr>&cat=100&test=mainsection
                 </div>
             </section>
         </article>
+        <article>
+            <header>
+                <h1>Article about using code inside &lt;figure&gt;</h1>
+                <p>Created by <span>Amir</span> on <span>22/9/2020</span></p>
+            </header>
+            <section>
+                <p>This Code Describe The Div Syntax</p>
+                <figure>
+                    <code>&lt;div&gt;This is Normal Syntax for div&lt;/div&gt;</code>
+                </figure>
+            </section>
+        </article>
+        <article>
+            <header>
+                <h1>Article about using Image inside &lt;figure&gt;</h1>
+                <p>Created by <span>Amir</span> on <span>22/9/2020</span></p>
+            </header>
+            <section>
+                <p>This Code Describe The Figure Syntax</p>
+                <dialog>This is dialog from HTML5</dialog>
+                <figure class="img-fig">
+                    <img src="http://placekitten.com/400/200" alt="kitten" title="my cat">
+                    <img src="http://placekitten.com/400/200" alt="kitten" title="my cat">
+                    <img src="http://placekitten.com/350/200" alt="kitten" title="my cat">
+					<figcaption>Cat Figures see the full list</figcaption>
+                    <a href="https://placekitten.com/" target="_blank">Here</a>
+                </figure>
+            </section>
+       </article>
+	   <article>
+		   <h1>Article about using &lt;video&gt;&lt;/video&gt;</h1>
+		   <p>Created by <span>Amir</span> on <span>23/9/2020</span></p>
+			<section>
+				<p>This is HTML5 video</p><br>
+				<video width="255" controls loop muted poster="images.jpg" preload="metadata">
+					<source src="فحص دينمو الشحن بالسيارة ( alternator )_HIGH.mp4" type="video/mp4">
+					<source src="فحص دينمو الشحن بالسيارة ( alternator )_HIGH.ogg" type="video/ogg">
+					<source src="فحص دينمو الشحن بالسيارة ( alternator )_HIGH.webm" type="vidro/webm">
+					<track  src="amir.vtt" kind="" srclang="en" label="English">
+					Your browser does not support the video element	
+				</video><br><br>
+				<p>Video courtesy of <a href="http://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a></p>
+			</section>
+	   </article>
+	   <article>
+			<header>
+				<h1>Article about using new form input field</h1>
+				<p>Created by <span>Amir</span> on <span>21/9/2020</span></p>
+			</header>
+			<section>
+				<p>New input field</p>
+				<form class="form" oninput="x.value=parseInt(range.value) + parseInt(number.value)">
+					<label for="color">Color</label>
+					<input type="color" id="color" name="theme" value="#0efdc0">
+					<label for="range">Range</label>
+					0
+					<input type="range" name="range" id="range" min="0" max="100" value="20">
+					100+
+					<input type="number" id="number" value="50" min="0" max="100" step="10">
+					<output name="x" for="range number"></output>
+					<label for="email">Enter your email</label>
+					<input type="email" name="email" id="email">
+					<label for="search">Search</label>
+					<input type="search" name="search">
+					<label for="page">Add your page</label>
+					<input type="url" name="page" id="page">
+					<label for="time">Time</label>
+					<input type="time" id="time" name="time">
+					<label for="date">Date</label>
+					<input type="date" id="date" name="date">
+					<label for="datetime">DateTime</label>								   
+					<input type="datetime-local" id="datetime" name="datetime">
+					<label for="month">Select a month</label>	
+					<input type="month" id="month" name="month">
+					<label for="week"> Select a week</label>	
+					<input type="week" id="week" name="week">
+					<input type="submit" value="submit">
+				</form>
+			</section>
+    	</article>
+		<article>
+			<header>	
+				<h3>Article about using new form attributes</h3>
+				<p>Created by <span>Amir</span> on <spann>24/9/2020</spann></p>
+			</header>
+				<section>
+					<p>New form attributes</p>
+					<form class="form" id="form1" action="process.php" method="get" enctype="application/x-www-form-urlencoded" target="_blank">
+						<input type="text" disabled="disabled">
+						<input type="text" name="username" id="username" placeholder="Username" autocomplete="" autofocus="on" required>
+						<input type="email" name="mail" id="mail" placeholder="Email" autocomplete="off" multiple>
+						<input type="file" multiple>
+						<label for="num">Number</label>
+						<input type="number" id="num" min="20" max="200" step="20">
+						<label for="pattern">Pattern</label>
+						<input type="text" pattern="[A-Za-z]{6}" required>
+						<label for="RO">Read Only</label>
+						<input type="tel" name="mopile" id="RO" value="00201098061474" readonly>
+						<label for="dis">Disabled</label>
+						<input type="text" name="disabled" id="dis" value="I`m Amir" disabled>
+						<input type="submit">
+						<input type="submit" formaction="action_page.php" formmethod="post" value="Submit as Admin">
+						<input type="submit" formnovalidate formtarget="_parent" value="Submit without Validation">
+					</form>
+					<label for="nname">Nickname</label>
+					<input type="text" name="nickname" id="nname" form="form1" required>
+				</section>
+		
+		</article>
     </div>
     <!--End Articles-->
 
@@ -96,20 +208,57 @@
                 <li>Multimedia Element</li>
             </ul>
         </section>
-        <section class="meters">
+        <section class="meters ">
             <h3>Performance</h3>
             <div>
-                CPU : <meter min="0" max="1" value="0.91" low="0.4" optimum="0.8" high=0.9></meter>
+                Enthusiam : <meter min="0" max="1" value="0.6" min="0.4" max="0.8"></meter>
             </div>
         </section>
+        <section>
+          <h3>Top skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </section>
+        <section class="poll ">
+          <h3>What is your best language?</h3>
+          <form action="/action_page.php ">
+              <input list="languages" name="languages ">
+              <datalist id="languages">
+                <option value="HTML"></option>
+                <option value="CSS"></option>
+                <option value="JavaScript"></option>
+                <option value="Python"></option>
+              </datalist>
+              <input type="submit" value="choose">
+          </form>
+        </section>
+		<section>
+			<h3>Calculate age in days</h3>
+			<form oninput="result.value = parseInt(age.value) * parseInt(days.value) + ' days'">
+				<input type="text" name="age">
+				<input type="hidden" name="days" value="365">
+				<output name="result"></output>
+			</form>
+		</section>
+		<section>
+			<h3>This is audio</h3>
+			<audio controls autoplay loop muted preload="auto">
+				<source src="azkar-al-masa-1434.mp3" type="audio/mpeg">
+				Your browser does not support the audio element
+			</audio>
+		</section>
     </aside>
+												   
     <!--End Sidebar-->
 
-    <div class="clearfix"></div>
+    <div class="clearfix "></div>
 
-    <footer> CopyRight 2020 &COPY; All Rights Reserved &COPY;</footer>
+    <footer>&COPY; Copyright 2020. All Rights Reserved</footer>
 
-    <script src=" function.js ">
+    <script src="index.js">
     </script>
 </body>
 
